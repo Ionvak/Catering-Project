@@ -1,0 +1,14 @@
+This project, as described in the name and preliminary project, is intended for use by the management of a catering company to store and update information regarding their respective company.It should be mentioned, however, that there have been significant changes to the project since the preliminary project. The details of the changes are as follows:
+
+- Classes Request, Item and Invoice have all been removed. They have all been replaced by either directly including their attributes in the Order class in which they were intended to be used, or they have been replaced by simple structs to be used in the Order class. These specific changes have been made to reduce complexity and to slim down the project.
+
+- Class Date's attributes (int Day, int Month, int Year) have been replaced have been replaced by 2 attributes : a tm object (TimeInfo) and an int describing the number of days since 1900/01/01 (duration). The reason that specific epoch date was chosen is becuase tm objects is only capable of presenting dates since that epoch date, therefore both were alligned to allow for better conversion and synchronization. This change has been implemented to allow for more convenient date data handling as compared to the previous method. Another advantage over the previous method is tm data types can directly work with other built in time types such as time_t which in turn allows for the access of current system date; which is used heavily in the program.
+
+- Class CompanyProfile has been renamed to Company, and the purpose of the class has been completely changed. The previously discrete classes (Company profile, Employee, Customer) have now all been joined in Company, which now does the job of combining Company information and functions into a central interface; combining everything related to each company object into one point. This change has been implemented due to previous class structure being too disjointed and disconnected, and there not being a central interface for handling the operations of a company object.
+
+- Remaining classes have seen very little change besides an added pointer in the Employee and Order and Customer objects to the company to which they belong; the company class has a pointer back to all these objects. Employees are now each tasked with a specific order via a pointer to the order which they are supposed to handle. Customers also have a pointer back to all of the orders they made. These pointers have been added to connect the classes together in a meaningful way and to better show the purpose of each object in relation to the company as a whole.
+
+- All classes have had methods added to them and already existing methods have been modified.
+
+simple tests checking if the output of methods and operators corresponds to the expected output as well as testing whether newly created objects have the expected parameters passed to them or otherwise automatically assigned.
+

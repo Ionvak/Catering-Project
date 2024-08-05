@@ -1,0 +1,114 @@
+# depslib dependency file v1.0
+1685491460 source:c:\users\mahmoud 1\desktop\catering\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Date.h"
+	"Company.h"
+	"Customer.h"
+	"Order.h"
+	"Employee.h"
+
+1682335141 source:c:\users\mahmoud 1\desktop\catering\preliminary.cpp
+	<string>
+	<iostream>
+	<vector>
+
+1684577716 source:c:\users\mahmoud 1\desktop\catering\company.c
+
+1684577991 source:c:\users\mahmoud 1\desktop\catering\customer.c
+
+1684577875 source:c:\users\mahmoud 1\desktop\catering\employee.c
+
+1684577811 source:c:\users\mahmoud 1\desktop\catering\invoice.c
+
+1684577937 source:c:\users\mahmoud 1\desktop\catering\item.c
+
+1684578040 source:c:\users\mahmoud 1\desktop\catering\order.c
+
+1684577765 source:c:\users\mahmoud 1\desktop\catering\request.c
+
+1685491016 c:\users\mahmoud 1\desktop\catering\company.h
+	<string>
+	<vector>
+	"Employee.h"
+	"Order.h"
+	"Customer.h"
+
+1685491337 c:\users\mahmoud 1\desktop\catering\employee.h
+	<string>
+	<vector>
+	"Order.h"
+	"Company.h"
+
+1685491282 c:\users\mahmoud 1\desktop\catering\order.h
+	<string>
+	"Customer.h"
+	"Date.h"
+
+1684892113 c:\users\mahmoud 1\desktop\catering\invoice.h
+	<string>
+	<vector>
+	<time.h>
+	"Date.h"
+
+1684601254 c:\users\mahmoud 1\desktop\catering\request.h
+	<string>
+	<vector>
+	"Item.h"
+
+1684600509 c:\users\mahmoud 1\desktop\catering\item.h
+	<string>
+	<vector>
+
+1685490315 c:\users\mahmoud 1\desktop\catering\customer.h
+	<string>
+	<vector>
+	"Order.h"
+
+1685491120 source:c:\users\mahmoud 1\desktop\catering\company.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Company.h"
+
+1685489778 source:c:\users\mahmoud 1\desktop\catering\customer.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Customer.h"
+
+1685491337 source:c:\users\mahmoud 1\desktop\catering\employee.cpp
+	<string>
+	<iostream>
+	"Employee.h"
+	"Company.h"
+
+1684946629 source:c:\users\mahmoud 1\desktop\catering\invoice.cpp
+	"Invoice.h"
+
+1685491426 source:c:\users\mahmoud 1\desktop\catering\order.cpp
+	"Order.h"
+	<iostream>
+	<string>
+
+1684766338 source:c:\users\mahmoud 1\desktop\catering\request.cpp
+	"Request.h"
+	<iostream>
+	<string>
+	<vector>
+
+1684766338 source:c:\users\mahmoud 1\desktop\catering\item.cpp
+	<string>
+	"Item.h"
+
+1685490016 source:c:\users\mahmoud 1\desktop\catering\date.cpp
+	"Date.h"
+	<iostream>
+	<ctime>
+	<math.h>
+
+1685490315 c:\users\mahmoud 1\desktop\catering\date.h
+	<ctime>
+
